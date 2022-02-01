@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+html {
+  font-size: 65%;
+  width: 100%;
+  background-color: rgb(252, 193, 202);
+}
+
+.clear {
+  clear: both;
+}
+h1 {
+  font-size: 2.8rem;
+}
+li {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #e91e63;
+  float: left;
+  padding: 3rem;
+  position: relative;
+}
+nav h1 {
+  float: left;
+  color: white;
+}
+#profile-link {
+  position: absolute;
+  left: 65%;
+  list-style: none;
+  margin: 0 4rem;
+}
+.project-title {
+  position: absolute;
+  left: 75%;
+  list-style: none;
+  margin: 0 4rem;
+}
+#contact {
+  position: absolute;
+  left: 85%;
+  list-style: none;
+  margin: 0 3rem;
+}
+#image-profile {
+  border: solid 10px white;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 30%;
+  min-width: 25%;
+  position: absolute;
+  left: 10%;
+  top: 22%;
+}
+#data {
+  color: #e91e63;
+  position: absolute;
+  text-align: justify;
+  left: 45%;
+  top: 35%;
+  width: 40%;
+  font-size: 2rem;
+  padding: 3rem;
+  font-size: 2rem;
+  min-width: 40%;
+}
+
+#contact-link {
+  font-size: 1.5rem;
+  color: #e91e63;
+}
+#email {
+  position: absolute;
+  top: 140%;
+  left: 3%;
+  padding: 0.5rem;
+}
+
+#mobile-number {
+  position: absolute;
+  top: 140%;
+  left: 40%;
+  padding: 0.5rem;
+}
+#linked-in {
+  position: absolute;
+  top: 140%;
+  left: 75%;
+  padding: 0.5rem;
+}
+#contact-link {
+  position: absolute;
+  top: 138%;
+}
+#project {
+  color: #e91e63;
+  text-align: justify;
+  position: absolute;
+  left: 2%;
+  top: 100%;
+  width: 90%;
+  font-size: 2rem;
+  padding: 3rem;
+  font-size: 2rem;
+  min-width: 40%;
+}
